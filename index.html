@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DICE GAME</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css"
+    
+</head>
+<body>
+    <div class="container">
+        <h1>LET'S PLAY</h1>
+
+        <div class="dice">
+            <p class="Player1">PLAYER 1</p>
+            <img class="img1" src="dice6.png">
+        </div>
+
+        <div class="dice">
+            <p class="Player2">PLAYER 2</p>
+            <img class="img2" src="dice6.png">
+        </div>
+    </div>
+
+    <div class="container bottom">
+        <button type="button" class="butn"
+            onClick="rollTheDice()">
+            ROLL THE DICE
+        </button>
+    </div>
+    <div class="container bottom">
+        <button type="button" class="butn" 
+            onClick="editNames()">
+            Edit Names
+        </button>
+    </div>
+    <script src='./script.js'></script>
+</body>
+</html>
