@@ -28,13 +28,13 @@ function rollTheDice() {
         }
 
         else if (randomNumber1 < randomNumber2) {
-            document.querySelector("h1").innerHTML
-                            = (PLAYER1 + " WINS!");
+            document.querySelector("h1").innerHTML= (PLAYER2 + " WINS!");
         }
 
         else {
             document.querySelector("h1").innerHTML
-                            = (PLAYER2 + " WINS!");
+                            = (PLAYER1 + " WINS!");
+                            
         }
     }, 2500);
 }
