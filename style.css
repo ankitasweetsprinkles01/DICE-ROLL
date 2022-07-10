@@ -1,58 +1,24 @@
-.container {
-        width: 70%;
-        margin: auto;
-        text-align: center;
-    }
-
-    .dice {
-        text-align: center;
-        display: inline-block;
-        margin: 10px;
-    }
-
-    body {
-        background-color: paleturquoise;
-        margin: 0;
-    }
-
-    h1 {
-        margin: 30px;
-        font-family: "Lobster", cursive;
-        text-shadow: 5px 0 red;
-        font-size: rgb(96, 0, 128);
-        color:greenyellow;
-        text-align: center;
-    }
-
-    p {
-        font-size: 2rem;
-        color:red;
-        font-family: "Indie Flower", cursive;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    .bottom {
-        padding-top: 30px;
-    }
-
-    .butn {
-        background: #4ecca3;
-        font-family:sans-serif, cursive;
-        border-radius: 7px;
-        color: #ffff;
-        font-size: 30px;
-        padding: 16px 25px 16px 25px;
-        text-decoration: none;
-    }
-
-    .butn:hover {
-        background: blueviolet;
-        text-decoration: none;
-    }
-    img{
-      top:30%;
-      left:40%
-    }
+body{
+    background:pink;
+    text-align:center;  background:url(https://icebreakerideas.com/wp-content/uploads/2015/10/Round-the-Clock%E2%80%9D-Dice-Game-e1445300310497.jpg);
+    background-size: cover;
+  }
+  label,button,input{
+    font-size:2em;
+    text-align:center;
+    border-radius:20px;
+  }
+  input{
+    width:100px;
+  }
+  button:hover{
+    box-shadow:0 0 20px 0 black;
+  }
+  div{
+    font-size:2em;
+    text-shadow: 0 0 3px black;
+  }
+  button{
+    width:300px;
+    
+  }
